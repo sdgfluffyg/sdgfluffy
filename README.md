@@ -1,4 +1,6 @@
-# SDG FLUFFY
+<p align="center">
+  <img src="./IMG_20260620_152018_101.jpg" alt="SDG FLUFFY Logo" width="220"/>
+</p># SDG FLUFFY
 
 ## Building the Future of Web3 on Solana
 
