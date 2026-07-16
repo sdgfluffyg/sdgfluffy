@@ -1,57 +1,108 @@
 <p align="center">
-  <img src="./IMG_20260620_152018_101.jpg" alt="SDG FLUFFY Logo" width="200"/>
+  <img src="./IMG_20260620_152018_101.jpg" alt="SDG FLUFFY Logo" width="220"/>
 </p>
 
 # SDG FLUFFY | Web3 Ecosystem on Solana
 
-Building a transparent, sustainable, and community-driven Web3 ecosystem on the Solana blockchain.
+<p align="center">
+Building digital asset infrastructure through transparency, governance, utility, and long-term sustainability.
+</p>
 
 ---
 
-## 🚀 Vision
+## 🚀 About SDG FLUFFY
 
-SDG FLUFFY is committed to bridging community engagement with real-world utility. By leveraging Solana’s high-speed and low-cost architecture, we are building infrastructure focused on transparency, scalability, and long-term value.
+SDG FLUFFY is a Web3 ecosystem built on Solana, focused on utility-driven digital assets, transparent governance, community development, and sustainable growth.
+
+The ecosystem combines a limited NFT collection, the SDG digital asset, community participation, and infrastructure designed for long-term development.
+
+---
+
+## 🌐 Ecosystem
+
+- **Blockchain:** Solana
+- **NFT Collection:** 20,000 NFTs released across 5 phases
+- **Phase 1:** Limited hidden mint
+- **Digital Asset Supply:** 100,000,000 SDG
+- **Long-Term Structure:** 72% of the supply locked through a 4-year journey
+- **Community:** International and utility-focused
+
+---
 
 ## 🛠 Core Pillars
 
-- Utility NFTs
-- Transparent Governance
-- Sustainable Development
-- Security-First Approach
+- **Real Utility:** Digital assets designed to support ecosystem participation.
+- **Transparent Governance:** Clear rules, public documentation, and responsible development.
+- **Sustainable Growth:** Long-term value over short-term market trends.
+- **Security-First Approach:** Safe infrastructure and responsible user interaction.
+- **Community Development:** Building an international ecosystem around participation and utility.
+
+---
 
 ## 🏗 Technology Stack
 
-- Blockchain: Solana
-- Backend: Python & Flask
-- Database: SQLite
-- NFT Standard: Metaplex Core
-- Wallet: Phantom
+- **Blockchain:** Solana
+- **NFT Standard:** Metaplex Core
+- **Wallet Integration:** Phantom
+- **Backend Development:** Python and Flask
+- **Database:** SQLite
+- **Web Infrastructure:** Browser-based ecosystem tools
 
-## 📍 Roadmap
+---
 
-### Phase 1
-- NFT Collection
-- Community Growth
-- Official Website
+## 📍 Development Roadmap
 
-### Phase 2
-- Governance Tools
-- Holder Integrations
-- Security Improvements
+### Phase 1 — Foundation
 
-### Phase 3
-- Strategic Partnerships
-- Ecosystem Expansion
-- Global Community Growth
+- NFT collection launch
+- Community foundation
+- Official website
+- Initial ecosystem infrastructure
+
+### Phase 2 — Governance and Utility
+
+- Governance tools
+- Holder-focused integrations
+- Ecosystem participation features
+- Infrastructure and security improvements
+
+### Phase 3 — Expansion
+
+- Strategic partnerships
+- Advanced utility rollout
+- Ecosystem expansion
+- International community growth
+
+---
+
+## 📊 Current Status
+
+- Phase 1 NFT collection available
+- Official website online
+- Community development in progress
+- Governance model under development
+- Technical documentation published
 
 ---
 
 ## 🔗 Official Links
 
-- Website: https://sdgfluffy.com
-- X: https://x.com/SDGFluffy
-- YouTube: https://youtube.com/@sdgoffcial
+- **Website:** [https://sdgfluffy.com](https://sdgfluffy.com)
+- **X:** [https://x.com/SDGFluffy](https://x.com/SDGFluffy)
+- **YouTube:** [https://youtube.com/@sdgoffcial](https://youtube.com/@sdgoffcial)
 
 ---
 
-*Built on Solana.*
+## ⚠️ Notice
+
+The SDG FLUFFY ecosystem is intended for individuals aged 18 or older. Digital assets involve risk and market volatility. Participants should understand the ecosystem’s utility, governance model, and participation mechanics before engaging.
+
+---
+
+<p align="center">
+  <strong>Building for the next decade — not the next pump.</strong>
+</p>
+
+<p align="center">
+  Built on Solana.
+</p>
