@@ -1,39 +1,57 @@
 <p align="center">
-  <img src="./IMG_20260620_152018_101.jpg" alt="SDG FLUFFY Logo" width="220"/>
-</p># SDG FLUFFY
+  <img src="./IMG_20260620_152018_101.jpg" alt="SDG FLUFFY Logo" width="200"/>
+</p>
 
-## Building the Future of Web3 on Solana
+# SDG FLUFFY | Web3 Ecosystem on Solana
 
-SDG FLUFFY is a Web3 ecosystem built on Solana, focused on utility NFTs, transparent governance, community growth, and sustainable digital infrastructure.
+Building a transparent, sustainable, and community-driven Web3 ecosystem on the Solana blockchain.
 
-## Current Status
+---
 
-- Phase 1 NFT collection available
-- Community development in progress
-- Governance model under development
-- Official website online
+## 🚀 Vision
 
-## Technology Stack
+SDG FLUFFY is committed to bridging community engagement with real-world utility. By leveraging Solana’s high-speed and low-cost architecture, we are building infrastructure focused on transparency, scalability, and long-term value.
 
-- Solana
-- Phantom Wallet
-- Metaplex Core
-- Python
-- Flask
-- SQLite
+## 🛠 Core Pillars
 
-## Roadmap
+- Utility NFTs
+- Transparent Governance
+- Sustainable Development
+- Security-First Approach
 
-- Phase 1: NFT Launch & Community Foundation
-- Phase 2: Governance Tools
-- Phase 3: Ecosystem Expansion
+## 🏗 Technology Stack
 
-## Official Links
+- Blockchain: Solana
+- Backend: Python & Flask
+- Database: SQLite
+- NFT Standard: Metaplex Core
+- Wallet: Phantom
+
+## 📍 Roadmap
+
+### Phase 1
+- NFT Collection
+- Community Growth
+- Official Website
+
+### Phase 2
+- Governance Tools
+- Holder Integrations
+- Security Improvements
+
+### Phase 3
+- Strategic Partnerships
+- Ecosystem Expansion
+- Global Community Growth
+
+---
+
+## 🔗 Official Links
 
 - Website: https://sdgfluffy.com
 - X: https://x.com/SDGFluffy
 - YouTube: https://youtube.com/@sdgoffcial
 
-## Vision
+---
 
-Building a transparent, sustainable, and community-driven Web3 ecosystem on Solana.
+*Built on Solana.*
