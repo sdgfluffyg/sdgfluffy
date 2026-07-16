@@ -4,4 +4,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "SDG FLUFFY API ONLINE"
+    return "API SDG FLUFFY ONLINE"
+
+@app.route("/status")
+def status():
+    return {
+        "project": "SDG FLUFFY",
+        "status": "online",
+        "version": "1.0"
+    }
+
+if __name__ == "__main__":
+    app.run(debug=True)
