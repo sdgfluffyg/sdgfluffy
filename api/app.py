@@ -17,6 +17,8 @@ def status():
         "status": "online",
         "version": "1.0"
     }
+def conectar_db():
 
+    return sqlite3.connect(DB_NAME)
 if __name__ == "__main__":
     app.run(debug=True)
