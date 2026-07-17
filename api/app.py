@@ -39,7 +39,8 @@ def criar_tabela():
 
     conn.commit()
 
-    conn.close()
+conn.close()
+criar_tabela()
 @app.route("/")
 def home():
     return "API SDG FLUFFY ONLINE"
