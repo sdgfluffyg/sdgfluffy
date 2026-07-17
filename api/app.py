@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-
+import sqlite3
 @app.route("/")
 def home():
     return "API SDG FLUFFY ONLINE"
