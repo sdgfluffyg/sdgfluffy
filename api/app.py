@@ -51,6 +51,28 @@ def status():
         "status": "online",
         "version": "1.0"
     }
+
+@app.route("/fabricantes")
+
+def fabricantes():
+
+    conn = conectar_db()
+
+    cursor = conn.cursor()
+
+
+
+    cursor.execute("SELECT * FROM fabricantes")
+
+    dados = cursor.fetchall()
+
+
+
+    conn.close()
+
+
+
+    return jsonify(dados)
 if __name__ == "__main__":
     criar_tabela()
     app.run(debug=True)
