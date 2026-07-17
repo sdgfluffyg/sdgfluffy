@@ -68,7 +68,39 @@ def fabricantes():
     ]
 
     return jsonify(resultado)
+@app.route("/fabricantes", methods=["POST"])
+def adicionar_fabricante():
+    dados = request.get_json()
 
+    if not dados:
+        return jsonify({"erro": "Dados não fornecidos"}), 400
+
+    nome = dados.get("nome")
+    cnpj = dados.get("cnpj")
+    email = dados.get("email")
+
+    if not nome:
+        return jsonify({"erro": "Campo nome é obrigatório"}), 400
+
+    conn = conectar_db()
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "INSERT INTO fabricantes (nome, cnpj, email) VALUES (?, ?, ?)",
+        (nome, cnpj, email)
+    )
+
+    conn.commit()
+    novo_id = cursor.lastrowid
+    conn.close()
+
+    return jsonify({
+        "mensagem": "Fabricante cadastrado com sucesso",
+        "id": novo_id,
+        "nome": nome,
+        "cnpj": cnpj,
+        "email": email
+    }), 201
 
 if __name__ == "__main__":
     app.run()
