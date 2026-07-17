@@ -5,7 +5,41 @@ app = Flask(__name__)
 import sqlite3
 
 DB_NAME = "sdg_fluffy.db"
+def conectar_db():
 
+    return sqlite3.connect(DB_NAME)
+
+
+
+def criar_tabela():
+
+    conn = conectar_db()
+
+    cursor = conn.cursor()
+
+
+
+    cursor.execute("""
+
+    CREATE TABLE IF NOT EXISTS fabricantes (
+
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+        nome TEXT NOT NULL,
+
+        cnpj TEXT,
+
+        email TEXT
+
+    )
+
+    """)
+
+
+
+    conn.commit()
+
+    conn.close()
 @app.route("/")
 def home():
     return "API SDG FLUFFY ONLINE"
@@ -17,8 +51,6 @@ def status():
         "status": "online",
         "version": "1.0"
     }
-def conectar_db():
-
-    return sqlite3.connect(DB_NAME)
 if __name__ == "__main__":
+    criar_tabela()
     app.run(debug=True)
